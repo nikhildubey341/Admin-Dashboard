@@ -25,4 +25,20 @@
       background-color: rgba(189, 189, 3, 0.103);
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .cellWrapper .image {
+      width: 24px;
+      height: 24px;
+    }
+
+    .tableCell {
+      padding: 8px; /* Adjust padding for table cells */
+    }
+
+    .status {
+      padding: 3px; /* Adjust padding for status cells */
+    }
+  }
 }

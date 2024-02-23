@@ -47,10 +47,6 @@
           width: 30px;
           height: 30px;
           border-radius: 50%;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          -ms-border-radius: 50%;
-          -o-border-radius: 50%;
         }
 
         .counter {
@@ -58,10 +54,6 @@
           height: 15px;
           background-color: red;
           border-radius: 50%;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          -ms-border-radius: 50%;
-          -o-border-radius: 50%;
           color: white;
           display: flex;
           align-items: center;
@@ -74,5 +66,11 @@
         }
       }
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    height: auto;
+    padding: 10px;
   }
 }

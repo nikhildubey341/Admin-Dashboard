@@ -3,6 +3,12 @@
   border-right: 0.5px solid rgb(230, 227, 227);
   min-height: 100vh;
   background-color: white;
+
+  @media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    flex: 0; /* or any other appropriate value */
+  }
+
   .top {
     height: 50px;
     display: flex;
@@ -15,10 +21,12 @@
     font-weight: bold;
     color: #6439ff;
   }
+
   hr {
     height: 0;
     border: 0.5px solid rgb(230, 227, 227);
   }
+
   .center {
     padding-left: 10px;
 
@@ -49,6 +57,7 @@
           font-size: 18px;
           color: #7451f8;
         }
+
         span {
           font-size: 13px;
           font-weight: 600;
@@ -69,16 +78,13 @@
       height: 20px;
       margin: 5px;
       border-radius: 5px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      -o-border-radius: 5px;
       border: 1px solid #7451f8;
       cursor: pointer;
 
       &:nth-child(1) {
         background-color: whitesmoke;
       }
+
       &:nth-child(2) {
         background-color: #333;
       }
